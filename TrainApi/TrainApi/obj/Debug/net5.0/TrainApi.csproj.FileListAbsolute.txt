@@ -27,7 +27,6 @@ U:\repos\trains\TrainApi\TrainApi\obj\Debug\net5.0\ref\TrainApi.dll
 U:\repos\trains\TrainApi\TrainApi\obj\Debug\net5.0\TrainApi.pdb
 U:\repos\trains\TrainApi\TrainApi\obj\Debug\net5.0\TrainApi.genruntimeconfig.cache
 U:\repos\trains\TrainApi\TrainApi\bin\Debug\net5.0\Newtonsoft.Json.dll
-U:\repos\trains\TrainApi\TrainApi\obj\Debug\net5.0\TrainApi.csproj.AssemblyReference.cache
 U:\repos\trains\TrainApi\TrainApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 U:\repos\trains\TrainApi\TrainApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 U:\repos\trains\TrainApi\TrainApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

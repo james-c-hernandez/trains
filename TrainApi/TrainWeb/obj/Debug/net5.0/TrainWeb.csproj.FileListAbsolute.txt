@@ -37,7 +37,6 @@ U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\ref\TrainWeb.dll
 U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\TrainWeb.pdb
 U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\TrainWeb.genruntimeconfig.cache
 U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\TrainWeb.csproj.CopyComplete
-U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\TrainWeb.csproj.AssemblyReference.cache
 U:\repos\trains\TrainApi\TrainWeb\bin\Debug\net5.0\Humanizer.dll
 U:\repos\trains\TrainApi\TrainWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 U:\repos\trains\TrainApi\TrainWeb\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -115,3 +114,4 @@ U:\repos\trains\TrainApi\TrainWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysi
 U:\repos\trains\TrainApi\TrainWeb\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 U:\repos\trains\TrainApi\TrainWeb\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\Razor\Views\Home\Bar.cshtml.g.cs
+U:\repos\trains\TrainApi\TrainWeb\obj\Debug\net5.0\Razor\Views\Home\Board.cshtml.g.cs

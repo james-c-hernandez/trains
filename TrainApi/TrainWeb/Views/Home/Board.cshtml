@@ -1,0 +1,117 @@
+﻿
+@{
+    ViewData["Title"] = "Board";
+}
+
+<style>
+    img {
+        max-height:25px;
+        width:35px;
+        padding-right:6px;
+    }
+    .cancelled
+    {
+        font-weight:bolder;
+        color:red;
+    }
+    .flight
+    {
+        font-weight:bolder;
+        color:gold;
+    }
+    .estimated {
+        font-weight: bolder;
+        color: saddlebrown;
+    }
+    .delayed {
+        font-weight: bolder;
+        color: saddlebrown;
+    }
+</style>
+<h1>Board</h1>
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Flight</th>
+            <th scope="col">From</th>
+            <th scope="col">Remarks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-active">
+            <th scope="row">10:45</th>
+            <td class="flight">XZ 3265</td>
+            <td><img src="https://flagsworld.org/img/cflags/spain-flag.png" />Madrid</td>
+            <td>Arrived</td>
+        </tr>
+        <tr>
+            <th scope="row">10:50</th>
+            <td class="flight">SQ 0972</td>
+            <td><img src="https://flagsworld.org/img/cflags/Netherlands-flag.png" />Amsterdam</td>
+            <td>Arrived</td>
+        </tr>
+        <tr>
+            <th scope="row">11:00</th>
+            <td class="flight">SQ 2509</td>
+            <td><img src="https://flagsworld.org/img/cflags/Mexico-flag.png" />Mexico City</td>
+            <td class="cancelled">Cancelled</td>
+        </tr>
+        <tr>
+            <th scope="row">11:05</th>
+            <td class="flight">RT 9122</td>
+            <td><img src="https://flagsworld.org/img/cflags/argentina-flag.png" />Buemos Aires</td>
+            <td>Arrived</td>
+        </tr>
+        <tr>
+            <th scope="row">11:10</th>
+            <td class="flight">XZ 6005</td>
+            <td><img src="https://flagsworld.org/img/cflags/USA-flag.png" />Los Angeles</td>
+            <td>Landing</td>
+        </tr>
+        <tr>
+            <th scope="row">11:20</th>
+            <td class="flight">QE 0078</td>
+            <td><img src="https://flagsworld.org/img/cflags/china-flag.png" />Beijing</td>
+            <td>Arrived</td>
+        </tr>
+        <tr>
+            <th scope="row">11:25</th>
+            <td class="flight">TY 2053</td>
+            <td><img src="https://flagsworld.org/img/cflags/Sweden-flag.png" />Stockholm</td>
+            <td>Landing</td>
+        </tr>
+        <tr>
+            <th scope="row">11:25</th>
+            <td class="flight">ER 7452</td>
+            <td><img src="https://flagsworld.org/img/cflags/Germany-flag.png" />Berlin</td>
+            <td>Landing</td>
+        </tr>
+        <tr>
+            <th scope="row">11:30</th>
+            <td class="flight">XZ 0352</td>
+            <td><img src="https://flagsworld.org/img/cflags/russia-flag.png" />Moscow</td>
+            <td class="estimated">Estimated 11:55</td>
+        </tr>
+        <tr>
+            <th scope="row">11:25</th>
+            <td class="flight">XZ 0352</td>
+            <td><img src="https://flagsworld.org/img/cflags/uk-flag.png" />London</td>
+            <td class="estimated">Landing</td>
+        </tr>
+        <tr>
+            <th scope="row">11:25</th>
+            <td class="flight">XZ 8900</td>
+            <td><img src="https://flagsworld.org/img/cflags/malaysia-flag.png" />Kuala Lumpur</td>
+            <td class="estimated">Estimated 12:20</td>
+        </tr>
+        <tr>
+            <th scope="row">11:25</th>
+            <td class="flight">SQ 2243</td>
+            <td><img src="https://flagsworld.org/img/cflags/Hungary-flag.png" />Budapest</td>
+            <td class="delayed">Delayed</td>
+        </tr>
+    </tbody>
+</table>

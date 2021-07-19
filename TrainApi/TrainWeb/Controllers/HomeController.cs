@@ -23,7 +23,8 @@ namespace TrainWeb.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Board");
+            //return View();
         }
 
         //public async Task<IActionResult> Foo()
@@ -77,6 +78,13 @@ namespace TrainWeb.Controllers
             httpClient.Dispose();
             return View();
         }
+
+
+        public async Task<IActionResult> Board()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
